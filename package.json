@@ -6,7 +6,8 @@
   "scripts": {
     "cypress:open:chrome":"npx cypress run -b chrome --headed",
     "cypress:open:firefox":"npx cypress run -b firefox --headed",
-    "cypress:run":"npx cypress run"
+    "cypress:run":"npx cypress run",
+    "my_build_xyz": "cypress run --headless --browser chrome"
   },
   "author": "",
   "license": "ISC",
