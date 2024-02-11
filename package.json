@@ -1,0 +1,16 @@
+{
+  "name": "megak_1_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:chrome":"npx cypress run -b chrome --headed",
+    "cypress:open:firefox":"npx cypress run -b firefox --headed",
+    "cypress:run":"npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
