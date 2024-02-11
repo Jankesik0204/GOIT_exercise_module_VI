@@ -5,9 +5,11 @@
     "main": "index.js",
     "scripts": {
       "cypress:open:chrome":"npx cypress run -b chrome --headed",
-      "cypress:open:firefox":"npx cypress run -b firefox --headed",
+      "cypress:open_1:firefox":"npx cypress run -b firefox --headed",
       "cypress:run":"npx cypress run",
-      "my_build_xyz": "cypress run --headless --browser chrome"
+      "my_build_xyz": "npm run lint",
+      "lint": "eslint --fix cypress app/assets/js/scripts.js",
+    "lint:yaml": "yamllint '*.yml' '.buildkite/*.yml' '.circleci/*.yml' '.github/workflows/*.yml' '.semaphore/*.yml' 'basic/**/*.yml' "
     },
     "author": "",
     "license": "ISC",
