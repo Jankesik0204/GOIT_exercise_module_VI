@@ -11,12 +11,12 @@ jobs:
 
     steps: # Kolekcja kroków
     - name: Checkout code
-      uses: actions/checkout@v2 # Wykorzystuje akcję GitHuba do pobrania kodu źródłowego repozytorium.
+      uses: actions/checkout@v4 # Wykorzystuje akcję GitHuba do pobrania kodu źródłowego repozytorium.
 
     - name: Install dependencies
       run: npm install # Instaluje wszystkie zależności projektu.
 
     - name: Run Cypress tests
-      run: | # Uruchamia skrypt testowy.
+      run: # Uruchamia skrypt testowy.
         npm run cy:install 
         npm run cy:run 
