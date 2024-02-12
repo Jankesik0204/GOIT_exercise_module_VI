@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "build": "npm run lint"
+      "sktypt:ABCD:1": "cypress run --headless --browser chrome"
     },
     "author": "",
     "license": "ISC",
