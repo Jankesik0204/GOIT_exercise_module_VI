@@ -7,7 +7,7 @@
       "cypress:open:chrome":"npx cypress run -b chrome --headed",
       "cypress:open_1:firefox":"npx cypress run -b firefox --headed",
       "cypress:run":"npx cypress run",
-      "build": "npm run lint",
+      "build:XYZ": "npm run lint",
       "lint": "eslint --fix cypress app/assets/js/scripts.js",
     "lint:yaml": "yamllint '*.yml' '.buildkite/*.yml' '.circleci/*.yml' '.github/workflows/*.yml' '.semaphore/*.yml' 'basic/**/*.yml' "
     },
